@@ -1,4 +1,5 @@
 # XJ-Monitor
+<img src="Images/SplashScreen.jpg" width="25%" height="25%">
 Arduino/OLED mounted in my 89 Jeep Cherokee XJ to give me ability to adjust my DR44 alternator output. Also displays Voltage, Time, and Temp. This is a two part project, meaning there are two Arduino's - one to drive the Alternator and get Temperature that is mounted under the hood. And the other to drive the display and provide a user interface. The OLED display was mounted in a flat empty panel in my 89 XJ along with two push button switches used to navigate through the menu system. 
 
 I'm using an Arduino Nano to drive the Alternator and a Teensy 3.2 to drive the display. I started out with a Nano for the display, but the program quickly grew too big for the Nano's limited RAM space.

@@ -9,7 +9,7 @@ First the alternator itself...  My 89 Renix XJ had a very low mounted CS130 alte
 
 The 160 Amp DR44 alternator can be found in one of the GMC trucks listed below. The first on the list being the Cadillac Escalade. It sounds cool, so I just tell everyone I upgrated to the Escalade alternator. The GMC trucks listed should all have the same mounting ears as the CS130 stock alternator. 
 
-**Sources for DR44 with mounting tabs good for Renix Cherokee**
+**Sources for DR44 / DR44G with mounting tabs good for Renix Cherokee**
 
 |     GMC Model             |   Year     |
 | ---------------------     | ---------- |

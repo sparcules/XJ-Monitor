@@ -29,7 +29,9 @@ The 160 Amp DR44 alternator can be found in one of the GMC trucks listed below. 
 | GMC YUKON XL 2500			    | 2007-2013  | 
 | HUMMER H2					        | 2008-2009  |
 
-I was able to use one of the original CS130 mounting points and just had to fab the second one. The old upper alternator mounting point in the XJ is now the new lower mounting point for the DR44. The DR44 mounting ear fit perfectly in that spot with no modifications. Since I had to fab a bracket for the York, I used a piece of angle iron welded to the York bracket to make the upper DR44 mounting point. The CS130 alternator can be found in 87-90 XJs and MJs. So, if you want to use the DR44 in a 1991 and up Cherokee, you'll have to find your own way to mount it, or go get yourself the alternator brackets out of an 87-90 Cherokee or Comanche with the 4.0L. 
+I was able to use one of the original CS130 mounting points and just had to fab the second one. The old upper alternator mounting point in the XJ is now the new lower mounting point for the DR44. The DR44 mounting ear fit perfectly in that spot with no modifications. Since I had to fab a bracket for the York, I used a piece of angle iron welded to the York bracket to make the upper DR44 mounting point. The CS130 alternator can be found in 87-90 XJs and MJs. So, if you want to use the DR44 in a 1991 and up Cherokee, you'll have to find your own way to mount it, or go get yourself the alternator brackets (and mounting bolts) out of an 87-90 Cherokee or Comanche with the 4.0L. They look like this.
+
+<img src="Images/XJRenixAlternatorBracket.PNG" width="50%" height="50%">
  
 See [DRuino44](https://github.com/sparcules/DRuino44) for more info.
 

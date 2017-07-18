@@ -2,9 +2,11 @@ This page is a work in progress. I'll be adding more detail as I find the time.
 
 # XJ-Monitor
 <img src="Images/SplashScreen.jpg" width="25%" height="25%">
-Arduino/OLED mounted in my 89 Jeep Cherokee XJ to give me ability to adjust my DR44 alternator output. Also displays Voltage, Time, and Temp. This is a two part project, meaning there are two Arduino's - one to drive the Alternator and get Temperature that is mounted under the hood. And the other to drive the display and provide a user interface. The OLED display was mounted in a flat empty panel in my 89 XJ along with two push button switches used to navigate through the menu system. 
+This project is a two Arduino control system. One Arduino Nano in the engine bay to control the DR44 alternator, and get temperature. The other (Arduino compatible) Teensy 3.2 is in the dash to drive the OLED display and provide a two button user input for option selection. Both microcontrollers talk to each other via serial communication. The dash device is the master and sends requests to the (slave) engine bay device. 
 
-I'm using an Arduino Nano to drive the Alternator and a Teensy 3.2 to drive the display. I started out with a Nano for the display, but the program quickly grew too big for the Nano's limited RAM space.
+The Teensy and the 0.96" OLED are mounted in my 89 Jeep Cherokee XJ to give me ability to adjust my DR44 alternator output. Also displays Voltage, Time, Date, and Temp. The OLED display was mounted in a flat empty panel in my 89 XJ along with two push button switches used to navigate through the menu system. I started out with a Nano for the display, but the program quickly grew too big for the Nano's limited RAM space.
+
+I'm using an Arduino Nano to drive the Alternator and get air temp. Future additions can be to get water temp from thermostat housing, relay fan control, DRL/halo/angel eye control - turn off the DRL when the turn signal is on. 
 
 ## The Alternator Arduino
 First the alternator itself...  My 89 Renix XJ had a very low mounted CS130 alternator on the passengers side. It died half way home from a day of offroading - I think mud worked it's way into the brushes. I thought that was a good time to upgrade and also mount the alternator in a higher (safer) spot in the engine bay. At the same time, I decided to ditch the old A/C compressor for a York 210 compressor.  I also ditched the Renix era A/C compressor bracket for a newer HO A/C compressor bracket. The Renix bracket has two horizontal bolts securing the compressor. The HO uses four verticle bolts. So it was easier (for me) to make the York bracket using the HO A/C bracket. 

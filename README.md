@@ -8,6 +8,8 @@ The Teensy and the 0.96" OLED are mounted in my 89 Jeep Cherokee XJ to give me a
 
 I'm using an Arduino Nano to drive the Alternator and get air temp. Future additions can be to get water temp from thermostat housing, relay fan control, DRL/halo/angel eye control - turn off the DRL when the turn signal is on. 
 
+Want to control a DR44 without a display/GUI, see my other project - [DRuino44](https://github.com/sparcules/DRuino44) for more info.
+
 ## The Alternator Arduino
 First the alternator itself...  My 89 Renix XJ had a very low mounted CS130 alternator on the passengers side. It died half way home from a day of offroading - I think mud worked it's way into the brushes. I thought that was a good time to upgrade and also mount the alternator in a higher (safer) spot in the engine bay. At the same time, I decided to ditch the old A/C compressor for a York 210 compressor.  I also ditched the Renix era A/C compressor bracket for a newer HO A/C compressor bracket. The Renix bracket has two horizontal bolts securing the compressor. The HO uses four verticle bolts. So it was easier (for me) to make the York bracket using the HO A/C bracket. 
 
@@ -37,8 +39,6 @@ I was able to use one of the original CS130 mounting points and just had to fab 
 
 <img src="Images/XJRenixAlternatorBracket.PNG" width="50%" height="50%">
  
-See [DRuino44](https://github.com/sparcules/DRuino44) for more info.
-
 
 ## The Dash-Mounted Dispaly Arduino
 **Why have a second Arduino just to tell the first Arduino to adjust the alternator voltage?** Because I can, lol. And also because the DR44 was made to be able to adjust the voltage based on power demands in the vehicle. The GMC donor vehicles of this alterntor feature a current sensor on the negative battery terminal to monitor how much current draw the battery needs to re-charge. If the battery needs charging, there will be a decent amount of current draw and the DR44 is set to a higher voltage (not sure at what level, but let's say 14.6V). If the battery is mostly charged, the current flow is low and the DR44 is set to a lower voltage (say something like 13.8V). There are also other things that affect what the DR44 should be set to, like if the headlights or blower motor are on. 

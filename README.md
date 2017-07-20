@@ -4,6 +4,9 @@ This page is a work in progress. I'll be adding more detail as I find the time.
 <img src="Images/SplashScreen.jpg" width="25%" height="25%">
 This project is a two Arduino control system. One Arduino Nano in the engine bay to control the DR44 alternator, and get temperature. The other (Arduino compatible) Teensy 3.2 is in the dash to drive the OLED display and provide a two button user input for option selection. Both microcontrollers talk to each other via serial communication. The dash device is the master and sends requests to the (slave) engine bay device. 
 
+Check out this YouTube video.
+[<img src="Images/youtube.jpg" width="10%" height="10%">](https://www.youtube.com/watch?v=YiINvIV-CDg)
+
 The Teensy and the 0.96" OLED are mounted in my 89 Jeep Cherokee XJ to give me ability to adjust my DR44 alternator output. Also displays Voltage, Time, Date, and Temp. The OLED display was mounted in a flat empty panel in my 89 XJ along with two push button switches used to navigate through the menu system. I started out with a Nano for the display, but the program quickly grew too big for the Nano's limited RAM space.
 
 I'm using an Arduino Nano to drive the Alternator and get air temp. Future additions can be to get water temp from thermostat housing, relay fan control, DRL/halo/angel eye control - turn off the DRL when the turn signal is on. 

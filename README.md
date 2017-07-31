@@ -14,9 +14,9 @@ I'm using an Arduino Nano to drive the Alternator and get air temp. Future addit
 Want to control a DR44 without a display/GUI, see my other project - [DRuino44](https://github.com/sparcules/DRuino44) for more info.
 
 ## The Alternator Arduino
-First the alternator itself...  My 89 Renix XJ had a very low mounted CS130 alternator on the passengers side. It died half way home from a day of offroading - I think mud worked it's way into the brushes. I thought that was a good time to upgrade and also mount the alternator in a higher (safer) spot in the engine bay. At the same time, I decided to ditch the old A/C compressor for a York 210 compressor.  I also ditched the Renix era A/C compressor bracket for a newer HO A/C compressor bracket. The Renix bracket has two horizontal bolts securing the compressor. The HO uses four verticle bolts. So it was easier (for me) to make the York bracket using the HO A/C bracket. 
+First the alternator itself...  My 89 Renix XJ had a very low mounted CS130 alternator on the passengers side. It died half way home from a day of offroading - I think mud worked it's way into the brushes. I thought that was a good time to upgrade and also mount the alternator in a higher (safer) spot in the engine bay. At the same time, I decided to ditch the old A/C compressor for a York 210 compressor - for on board air.  I also ditched the Renix era A/C compressor bracket for a newer HO A/C compressor bracket. The Renix bracket has two horizontal bolts securing the compressor. The HO uses four verticle bolts. So it was easier (for me) to make the York bracket using the HO A/C bracket. 
 
-The 160 Amp DR44 alternator can be found in one of the GMC trucks listed below. The first on the list being the Cadillac Escalade. It sounds cool, so I just tell everyone I upgrated to the Escalade alternator. The GMC trucks listed should all have the same mounting ears as the CS130 stock alternator. 
+The 160 Amp DR44 alternator can be found in one of the GMC trucks listed below. The first on the list being the Cadillac Escalade. It sounds cool, so I just tell everyone I upgrated to the Escalade alternator. The GMC trucks listed should all have the same mounting ears as the CS130 stock alternator upper mount. 
 
 **Sources for DR44 / DR44G with mounting tabs good for Renix Cherokee**
 
@@ -38,7 +38,7 @@ The 160 Amp DR44 alternator can be found in one of the GMC trucks listed below. 
 | GMC YUKON XL 2500			    | 2007-2013  | 
 | HUMMER H2					        | 2008-2009  |
 
-I was able to use one of the original CS130 mounting points and just had to fab the second one. The old upper alternator mounting point in the XJ is now the new lower mounting point for the DR44. The DR44 mounting ear fit perfectly in that spot with no modifications. Since I had to fab a bracket for the York, I used a piece of angle iron welded to the York bracket to make the upper DR44 mounting point. The CS130 alternator can be found in 87-90 XJs and MJs. So, if you want to use the DR44 in a 1991 and up Cherokee, you'll have to find your own way to mount it, or go get yourself the alternator brackets (and mounting bolts) out of an 87-90 Cherokee or Comanche with the 4.0L. They look like this.
+I was able to use one of the original CS130 mounting points and just had to fab the second one. The old upper alternator mounting point in the XJ is now the new lower mounting point for the DR44. The DR44 mounting ear fit perfectly in that spot with no modifications. Since I had to fab a bracket for the York, I used a piece of angle iron welded to the York bracket to make the upper DR44 mounting point. The CS130 alternator can be found in 87-90 XJs and MJs having the 4.0L engine. So, if you want to use the DR44 in a 1991 and up Cherokee, you'll have to find your own way to mount it, or go get yourself the alternator brackets (and mounting bolts) out of an 87-90 Cherokee or Comanche with the 4.0L. They look like this.
 
 <img src="Images/XJRenixAlternatorBracket.PNG" width="50%" height="50%">
  

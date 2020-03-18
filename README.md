@@ -43,7 +43,7 @@ I was able to use one of the original CS130 mounting points and just had to fab 
 <img src="Images/XJRenixAlternatorBracket.PNG" width="50%" height="50%">
  
 
-## The Dash-Mounted Dispaly Arduino
+## The Dash-Mounted Display Arduino
 **Why have a second Arduino just to tell the first Arduino to adjust the alternator voltage?** Because I can, lol. And also because the DR44 was made to be able to adjust the voltage based on power demands in the vehicle. The GMC donor vehicles of this alterntor feature a current sensor on the negative battery terminal to monitor how much current draw the battery needs to re-charge. If the battery needs charging, there will be a decent amount of current draw and the DR44 is set to a higher voltage (not sure at what level, but let's say 14.6V). If the battery is mostly charged, the current flow is low and the DR44 is set to a lower voltage (say something like 13.8V). There are also other things that affect what the DR44 should be set to, like if the headlights or blower motor are on. 
 
 For now the ability to set the DR44 to a different voltage is done manually through the menu of the dash display.  I might expand this in the future to adjust automatically if things like the headlights or offroad lights are on. 
